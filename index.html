@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project 1 - House Price Prediction</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e8e0f5 0%, #d8d0f0 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: linear-gradient(160deg, #ede8f8 0%, #ddd8f0 100%);
+      border-radius: 20px;
+      padding: 50px 60px;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 10px 40px rgba(80, 50, 160, 0.12);
+    }
+
+    .project-label {
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: #2a1a6e;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .project-title {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: #2a1a6e;
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 35px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 40px;
+    }
+
+    ul li {
+      font-size: 1.15rem;
+      color: #1e1450;
+      font-weight: 500;
+      padding: 10px 0 10px 30px;
+      position: relative;
+      line-height: 1.6;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 8px;
+      top: 10px;
+      font-size: 1.4rem;
+      color: #2a1a6e;
+    }
+
+    .links {
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: #2a1a6e;
+    }
+
+    .links span {
+      margin-right: 6px;
+    }
+
+    .links a {
+      color: #2a1a6e;
+      text-decoration: underline;
+      font-weight: 900;
+      margin: 0 6px;
+      transition: color 0.2s;
+    }
+
+    .links a:hover {
+      color: #6a3fd4;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="project-label">Project - 1</div>
+    <div class="project-title">House Price Prediction</div>
+
+    <ul>
+      <li>Load a housing dataset, clean and explore features.</li>
+      <li>Select features, split train/test and train a Linear Regression model.</li>
+      <li>Evaluate using RMSE and R², and interpret coefficients.</li>
+      <li>Save model and show example predictions.</li>
+    </ul>
+
+    <div class="links">
+      <span>🔗</span>
+      <strong>Example :</strong>
+      <a href="#" target="_blank">Link 1</a>,
+      <a href="#" target="_blank">Link 2</a>
+    </div>
+  </div>
+</body>
+</html>
